@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testScripts.loginTest">
+        <methods>
+          <include name="launch"/>
+          <include name="quitbrowser"/>
+        </methods>
+      </class> <!-- testScripts.loginTest -->
+      <class name="testScripts.Oneway">
+        <methods>
+          <include name="SeStatus"/>
+        </methods>
+      </class> <!-- testScripts.Oneway -->
+      <class name="logicTest.dataproviderconcept">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- logicTest.dataproviderconcept -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

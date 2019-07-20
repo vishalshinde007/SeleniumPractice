@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testScripts.TestScript1">
+        <methods>
+          <include name="loginTest" invocation-numbers="0 1 2 3 4 5 6 7"/>
+        </methods>
+      </class> <!-- testScripts.TestScript1 -->
+      <class name="logicTest.TestNG1">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- logicTest.TestNG1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

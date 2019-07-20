@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="120329" started-at="2019-08-01T11:07:16Z" finished-at="2019-08-01T11:09:16Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="120329" started-at="2019-08-01T11:07:16Z" finished-at="2019-08-01T11:09:16Z">
+      <class name="testScripts.Oneway">
+        <test-method status="PASS" signature="onepersoneway()[pri:0, instance:testScripts.Oneway@19e13df]" name="onepersoneway" duration-ms="7027" started-at="2019-08-01T16:38:55Z" finished-at="2019-08-01T16:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onepersoneway -->
+        <test-method status="PASS" signature="SeStatus()[pri:0, instance:testScripts.Oneway@19e13df]" name="SeStatus" is-config="true" duration-ms="1043" started-at="2019-08-01T16:39:15Z" finished-at="2019-08-01T16:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeStatus -->
+      </class> <!-- testScripts.Oneway -->
+      <class name="logicTest.dataproviderconcept">
+        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:logicTest.dataproviderconcept@15530b9]" name="loginTest" duration-ms="0" started-at="2019-08-01T16:39:15Z" data-provider="getdata2" finished-at="2019-08-01T16:39:15Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void logicTest.dataproviderconcept.loginTest(java.lang.String,java.lang.String) requires a @DataProvider named : getdata2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void logicTest.dataproviderconcept.loginTest(java.lang.String,java.lang.String) requires a @DataProvider named : getdata2
+	at org.testng.internal.Parameters.findDataProvider(Parameters.java:263)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:419)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- logicTest.dataproviderconcept -->
+      <class name="testScripts.Twoway">
+        <test-method status="PASS" signature="Twopersoneway()[pri:0, instance:testScripts.Twoway@198378d]" name="Twopersoneway" duration-ms="6557" started-at="2019-08-01T16:39:02Z" finished-at="2019-08-01T16:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Twopersoneway -->
+        <test-method status="PASS" signature="Twopersontwoway()[pri:0, instance:testScripts.Twoway@198378d]" name="Twopersontwoway" duration-ms="6447" started-at="2019-08-01T16:39:09Z" finished-at="2019-08-01T16:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Twopersontwoway -->
+      </class> <!-- testScripts.Twoway -->
+      <class name="testScripts.loginTest">
+        <test-method status="PASS" signature="launch()[pri:0, instance:testScripts.loginTest@cb5822]" name="launch" is-config="true" duration-ms="9465" started-at="2019-08-01T16:37:07Z" finished-at="2019-08-01T16:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:testScripts.loginTest@cb5822]" name="logintest" duration-ms="98852" started-at="2019-08-01T16:37:17Z" data-provider="getdata2" finished-at="2019-08-01T16:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:testScripts.loginTest@cb5822]" name="quitbrowser" is-config="true" duration-ms="2246" started-at="2019-08-01T16:39:17Z" finished-at="2019-08-01T16:39:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- testScripts.loginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
