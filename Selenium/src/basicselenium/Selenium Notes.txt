@@ -1,0 +1,77 @@
+Project:
+Add To Cart
+Search Products
+Registration
+AddTo Cart
+Guest User
+Static Links
+----
+Register user
+Browse
+
+
+Abolute Xpath  - Starts from HTML tag
+Relative Xpath - From any tag.
+
+xpath formula
+
+//tagname[@attributeName = 'Attribute Value']
+
+Css formula
+tagname[attributeName = 'Attribute Value']
+
+
+/html/body/div/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[2]/td[2]/b/font/input[2]
+
+
+//a[@href='mercuryregister.php']
+
+//tagname [text()='']
+//a[text()='REGISTER']
+//a[contains(text(),'REGISTER')]
+//a[contains(@href,'mercuryregis')]
+//a[starts-with(text(),'REGI')]
+//a[@href='mercuryregister.php'][text()='REGISTER']
+//a[@href='mercuryregister.php' and text()='REGISTER']
+//a[@href='mercuryregister.php' or text()='REGISTER']
+
+---how to use ()[]
+(//a[text()='REGISTER'])[1]
+
+
+Web Elements
+----File Upload
+----WebTable
+----TextArea
+----Image
+
+//table[@border='2']/tbody/tr[1]/td
+
+Explicit Wait :Wait fo Specific element property 
+Implicit Wait : Presence of 
+
+Xapth    Axes
+
+
+1. Following - Precceding
+2. Child - Parent
+3. Ancestors - Descendant
+4.Following Sibling - Preceding Sibling
+
+//a[text()='Top wear']//following::a[text()='Shirts']
+//span[text()='Men']//following::a[text()='Top wear']//following::a[text()='Shirts']
+//span[text()='Men']//following::a[text()='Kurtas']//preceding::a[text()='Shirts']
+//a[text()='Kurtas']//parent::li//preceding-sibling::li/a[text()='Shirts']
+//a[text()='Kurtas']/..///preceding-sibling::li/a[text()='Shirts']
+
+-----
+Xpath for login button : //input [@name='userName']//following::input[@name='login']
+username : //input[@name='login']//preceding::input[@name='userName']
+password://input[@name='login']//preceding::input[@name='password']
+
+
+
+
+
+
+
