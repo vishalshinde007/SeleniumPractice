@@ -33,7 +33,9 @@ public class loginTest {
 	{
 		lib =new ApplicationLibraries();
 		dr=lib.launchbrowser();
+		//dr.manage().deleteAllCookies();
 		dr.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
 		
 	}
 	
@@ -63,7 +65,9 @@ public class loginTest {
 @DataProvider
 public String[][] getdata2() throws IOException
 {
+	
 	Xls_Reader obj = new Xls_Reader(Config.testdata);
+	
      
       
       int rows = obj.getrowcount("login");
@@ -77,10 +81,13 @@ public String[][] getdata2() throws IOException
     	  {
     		  data[r-2][c-1]=obj.getCellData("login", r, c);
     	  }
+    	  
       }
       
-      return data;
-	}
+      
+	return data;
+	
+}
 
 @AfterSuite
 public void quitbrowser()

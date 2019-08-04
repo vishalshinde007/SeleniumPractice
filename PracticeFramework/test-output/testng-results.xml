@@ -2,22 +2,22 @@
 <testng-results skipped="1" failed="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="120329" started-at="2019-08-01T11:07:16Z" finished-at="2019-08-01T11:09:16Z">
+  <suite name="Suite" duration-ms="36942" started-at="2019-08-04T10:04:21Z" finished-at="2019-08-04T10:04:58Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="120329" started-at="2019-08-01T11:07:16Z" finished-at="2019-08-01T11:09:16Z">
+    <test name="Test" duration-ms="36942" started-at="2019-08-04T10:04:21Z" finished-at="2019-08-04T10:04:58Z">
       <class name="testScripts.Oneway">
-        <test-method status="PASS" signature="onepersoneway()[pri:0, instance:testScripts.Oneway@19e13df]" name="onepersoneway" duration-ms="7027" started-at="2019-08-01T16:38:55Z" finished-at="2019-08-01T16:39:02Z">
+        <test-method status="PASS" signature="onepersoneway()[pri:0, instance:testScripts.Oneway@19e13df]" name="onepersoneway" duration-ms="8295" started-at="2019-08-04T15:34:30Z" finished-at="2019-08-04T15:34:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onepersoneway -->
-        <test-method status="PASS" signature="SeStatus()[pri:0, instance:testScripts.Oneway@19e13df]" name="SeStatus" is-config="true" duration-ms="1043" started-at="2019-08-01T16:39:15Z" finished-at="2019-08-01T16:39:16Z">
+        <test-method status="PASS" signature="SetStatus()[pri:0, instance:testScripts.Oneway@19e13df]" name="SetStatus" is-config="true" duration-ms="4716" started-at="2019-08-04T15:34:54Z" finished-at="2019-08-04T15:34:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SeStatus -->
+        </test-method> <!-- SetStatus -->
       </class> <!-- testScripts.Oneway -->
       <class name="logicTest.dataproviderconcept">
-        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:logicTest.dataproviderconcept@15530b9]" name="loginTest" duration-ms="0" started-at="2019-08-01T16:39:15Z" data-provider="getdata2" finished-at="2019-08-01T16:39:15Z">
+        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:logicTest.dataproviderconcept@15530b9]" name="loginTest" duration-ms="0" started-at="2019-08-04T15:34:54Z" data-provider="getdata2" finished-at="2019-08-04T15:34:54Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -55,21 +55,21 @@ Method public void logicTest.dataproviderconcept.loginTest(java.lang.String,java
         </test-method> <!-- loginTest -->
       </class> <!-- logicTest.dataproviderconcept -->
       <class name="testScripts.Twoway">
-        <test-method status="PASS" signature="Twopersoneway()[pri:0, instance:testScripts.Twoway@198378d]" name="Twopersoneway" duration-ms="6557" started-at="2019-08-01T16:39:02Z" finished-at="2019-08-01T16:39:09Z">
+        <test-method status="PASS" signature="Twopersoneway()[pri:0, instance:testScripts.Twoway@198378d]" name="Twopersoneway" duration-ms="7659" started-at="2019-08-04T15:34:38Z" finished-at="2019-08-04T15:34:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Twopersoneway -->
-        <test-method status="PASS" signature="Twopersontwoway()[pri:0, instance:testScripts.Twoway@198378d]" name="Twopersontwoway" duration-ms="6447" started-at="2019-08-01T16:39:09Z" finished-at="2019-08-01T16:39:15Z">
+        <test-method status="PASS" signature="Twopersontwoway()[pri:0, instance:testScripts.Twoway@198378d]" name="Twopersontwoway" duration-ms="7403" started-at="2019-08-04T15:34:46Z" finished-at="2019-08-04T15:34:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Twopersontwoway -->
       </class> <!-- testScripts.Twoway -->
       <class name="testScripts.loginTest">
-        <test-method status="PASS" signature="launch()[pri:0, instance:testScripts.loginTest@cb5822]" name="launch" is-config="true" duration-ms="9465" started-at="2019-08-01T16:37:07Z" finished-at="2019-08-01T16:37:16Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:testScripts.loginTest@cb5822]" name="launch" is-config="true" duration-ms="11465" started-at="2019-08-04T15:34:10Z" finished-at="2019-08-04T15:34:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:testScripts.loginTest@cb5822]" name="logintest" duration-ms="98852" started-at="2019-08-01T16:37:17Z" data-provider="getdata2" finished-at="2019-08-01T16:38:55Z">
+        <test-method status="PASS" signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:testScripts.loginTest@cb5822]" name="logintest" duration-ms="7881" started-at="2019-08-04T15:34:22Z" data-provider="getdata2" finished-at="2019-08-04T15:34:30Z">
           <params>
             <param index="0">
               <value>
@@ -85,7 +85,7 @@ Method public void logicTest.dataproviderconcept.loginTest(java.lang.String,java
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:testScripts.loginTest@cb5822]" name="quitbrowser" is-config="true" duration-ms="2246" started-at="2019-08-01T16:39:17Z" finished-at="2019-08-01T16:39:19Z">
+        <test-method status="PASS" signature="quitbrowser()[pri:0, instance:testScripts.loginTest@cb5822]" name="quitbrowser" is-config="true" duration-ms="3609" started-at="2019-08-04T15:34:58Z" finished-at="2019-08-04T15:35:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitbrowser -->

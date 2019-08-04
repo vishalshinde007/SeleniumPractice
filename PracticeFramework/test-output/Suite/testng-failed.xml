@@ -11,7 +11,7 @@
       </class> <!-- testScripts.loginTest -->
       <class name="testScripts.Oneway">
         <methods>
-          <include name="SeStatus"/>
+          <include name="SetStatus"/>
         </methods>
       </class> <!-- testScripts.Oneway -->
       <class name="logicTest.dataproviderconcept">

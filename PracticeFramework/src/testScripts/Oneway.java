@@ -70,7 +70,7 @@ public class Oneway{
 	}
 	
 	@AfterTest
-	public void SeStatus() throws IOException
+	public void SetStatus() throws IOException
 	{
 		Xls_Reader obj = new Xls_Reader(Config.testdata);
 		

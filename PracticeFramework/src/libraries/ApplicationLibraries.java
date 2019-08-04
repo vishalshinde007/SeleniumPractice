@@ -8,7 +8,7 @@ import configuration.Config;
 
 public class ApplicationLibraries {
 	
-	@BeforeSuite
+	
 	public WebDriver launchbrowser()
 	{
 		System.setProperty("webdriver.chrome.driver",Config.chromedriver);
